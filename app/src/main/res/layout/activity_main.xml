@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pemrogramanvisualtugas1.MainActivity">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rektorat"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="KAMPUS"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="USERNAME"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000080"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="Masukkan Username"
+        android:textAlignment="center"
+        android:textColor="#C0C0C0"
+        android:textColorHint="#C0C0C0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PASSWORD"
+        android:textAlignment="center"
+        android:textColor="#000080"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#C0C0C0"
+        android:textColorHint="#C0C0C0" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1E90FF"
+        android:padding="15sp"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="COPYRIGHT INFORMATIKA 2016"/>
+</LinearLayout>
